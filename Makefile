@@ -1,8 +1,8 @@
 # Path to nodemcu-uploader (https://github.com/kmpm/nodemcu-uploader)
 UPLOADER=./uploader.py
 # Serial port
-PORT=/dev/cu.usbserial
-BAUD=9600
+PORT=/dev/tty.usbserial
+BAUD=115200
 
 HTML_FILES := $(wildcard html/*)
 LUA_FILES := init.lua run_config.lua run_program.lua
